@@ -1,10 +1,10 @@
+es (8 sloc) 163 Bytes
 <script setup>
-  import { ref } from 'vue'
-  const title = ref('Hello There ✋')
+  import NavBar from './NavBar.vue'
+  import Main from './Main.vue'
 </script>
 
 <template>
-  <main class="flex min-h-screen items-center justify-center">
-    <h1 class="text-6xl font-thin text-slate-800">{{ title }}</h1>
-  </main>
+  <NavBar />
+  <Main />
 </template>
