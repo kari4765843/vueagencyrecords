@@ -13,9 +13,7 @@
     "format:check": "prettier --check ."
   },
   "dependencies": {
-    "@rushstack/eslint-patch": "^1.1.4",
-    "@vue/eslint-config-prettier": "^7.0.0",
-    "@vueuse/core": "^9.2.0",
+    "@vue-hero-icons/outline": "^1.7.2",
     "@vueuse/firebase": "^9.3.0",
     "firebase": "^9.10.0",
     "vue": "^3.2.37",
